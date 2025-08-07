@@ -1,0 +1,512 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    color: white;
+}
+
+.backimage img {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-image: url("images/restaurenbackimage.avif");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+
+}
+
+/*nav a{
+    text-decoration: none;
+    color: white;
+}
+
+header button{
+    background-color: orange;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 2px;
+}
+
+.midsection{
+    position: sticky;
+    bottom: 500px;
+
+}*/
+
+
+
+/*********section2**********/
+
+
+.container2 {
+    margin-top: 80px;
+    background-color: white;
+    display: flex;
+    /*align-items: flex-start;*/
+    gap: 50px;
+
+}
+
+.images {
+    position: relative;
+    width: 400px;
+    height: 250px;
+    margin-bottom: 70px;
+    margin-left: 70px;
+
+}
+
+#images1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+    border: 2px solid black;
+
+
+}
+
+#images2 {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 300px;
+    height: 200px;
+    z-index: 1;
+    border: 2px solid black;
+}
+
+.content {
+    flex: 1;
+    padding: 10px;
+}
+
+.content h1 {
+    font-style: italic;
+    color: rgb(87, 157, 87);
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.content h2 {
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.p1 {
+    margin-bottom: 20px;
+
+}
+
+.p2 {
+    margin-bottom: 20px;
+}
+
+.content button {
+    background: none;
+    border: none;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+/************section3****************/
+
+.container3 {
+    margin-top: 100px;
+    display: flex;
+    background-color: black;
+    color: white;
+    margin-bottom: 70px;
+}
+
+.section3 {
+    padding-left: 20px;
+
+}
+
+.section3 h1 {
+    margin-top: 20px;
+    font-style: italic;
+    color: rgb(87, 157, 87);
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.section3 h2 {
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.paragraph {
+    display: flex;
+    color: beige;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.section3b button {
+    background: none;
+    border: none;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+}
+
+
+/*********section4************/
+
+.container4 {
+    background-color: white;
+    display: flex;
+    margin-top: 40px;
+    /*align-items: flex-start;*/
+    gap: 40px;
+}
+
+.images1 {
+    position: relative;
+    width: 400px;
+    height: 250px;
+    margin-left: 70px;
+    margin-bottom: 60px;
+
+}
+
+#image1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+    border: 2px solid black;
+
+}
+
+#images2 {
+    position: absolute;
+    height: 200px;
+    width: 250px;
+    top: 150px;
+    left: 100px;
+    z-index: 2;
+    border: 2px solid black;
+}
+
+.section4 {
+    padding: 40px;
+    flex: 1;
+}
+
+.section4 h1 {
+    font-style: italic;
+    color: green;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+.section4 h2 {
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.section4p {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.sec4b{
+    border-left: 2px solid red;
+    padding-left: 10px;
+}
+
+.sec4b button {
+    background: none;
+    border: none;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+/***********section5************/
+
+.container5 {
+    background-color: rgb(180, 186, 186);
+    margin-top: 70px;
+}
+
+.uppersec {
+    text-align: center;
+    padding: 70px;
+}
+
+.uppersech1 {
+    font-style: italic;
+    color: green;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.secupperh1 {
+    font-weight: bolder;
+    margin-bottom: 20px;
+    color: beige;
+
+}
+
+.uppersec h3 {
+    color: beige;
+    padding-bottom: 10px;
+}
+
+.uppersec p {
+    color: beige;
+    padding-bottom: 40px;
+}
+
+.uppersec button {
+    background: none;
+    border: none;
+    color: beige;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.uppersec hr {
+    width: 150px;
+    border: 2px solid beige;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+
+.midsecholder {
+    /*padding-left: 200px;*/
+    display: flex;
+    justify-content: center;
+    margin: 0 50px;
+}
+
+.leftsec {
+    background-color: white;
+    width: 200px;
+    height: 350px;
+    padding: 50px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.leftsec h4 {
+    font-style: oblique;
+}
+
+.leftsec h1 {
+    font-weight: bolder;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.headingsec {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.imagecontainer {
+    padding-top: 30px;
+    /* width: 50%;*/
+    /* display: flex; */
+    /* justify-content: center; */
+    /* grid-template-columns: auto auto auto; */
+    /* background-color: white;*/
+}
+
+.imagebox {
+    display: grid;
+    /* justify-content: center; */
+    grid-template-columns: auto auto auto;
+    gap: 2px;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.imagebox button {
+    padding-left: 20px;
+}
+
+.lowersec {
+    text-align: center;
+    padding: 70px;
+}
+
+.lowersec h1 {
+    font-style: italic;
+    color: green;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.lowersec h2 {
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.lowersec p {
+    padding-bottom: 20px;
+}
+
+.lowersec h5 {
+    font-weight: bold;
+}
+
+.img-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.img-btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+
+/*........section7.......*/
+
+
+.container7 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(177, 48, 48);
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.cont7-main{
+    
+}
+
+
+.cont7-main h1 {
+    font-style: italic;
+    color: green;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.cont7-main h2 {
+    font-weight: bolder;
+}
+
+
+.cont7-main p{
+    margin: 20px 0;
+}
+
+.section7b{
+    display: flex;
+    justify-content: center;
+}
+
+#sec7button1 {
+    background-color: white;
+    color: rgb(68, 67, 66);
+    border: none;
+    padding: 10px 70px;
+
+}
+
+
+#sec7button2 {
+    background-color: orange;
+    color: rgb(68, 67, 66);
+    border: none;
+    padding: 10px 30px;
+
+}
+
+
+/*..........lastpage...............*/
+
+.container8{
+    background-color: black;
+    color: white;
+}
+.lastpage{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* ====================
+  FOOTER SECTION
+  ======================= */
+footer{
+    background-color: rgb(27, 24, 24);
+    color: white;
+}
+.f-main{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.f-detail{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    width: 25%;
+}
+
+.hotel-info{
+    /* width: 30%; */
+}
+
+.navlinks ul li{
+    list-style: none;
+    gap: 5px;
+}
+
+.follow{
+    text-align: center;
+}
+
+
+.btn button{
+    padding: 10px;
+    background-color: transparent;
+    color: yellow;
+    border-color: yellow;
+    margin-bottom: 30px;
+}
+
+
+.social-links   ul{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    padding-top: 5px;
+}
